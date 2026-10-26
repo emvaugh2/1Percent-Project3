@@ -78,4 +78,23 @@ ________________________
 
 ## Problem 5: Integration of CI/CD Practices
 
-Welcome to our demonstration of Project 2: Deploying Microservices on Amazon EKS! This will be a compilation of all the skills we've recently developed so lets put in into action. So what is a microservice? A microservice is more of a design approach for breaking very large services into smaller, separated services that add back up to the larger service. Netflix is an "application" but it's really a large application (streaming TV media) that is comprised of a bunch of smaller services (DBs, cloud services, storage, etc). 
+
+**Explanation:** The team has not fully adopted CI/CD practices, which can lead to delays in updates and changes.
+
+
+
+1. **Discuss CI/CD Importance:**
+    - Research the benefits of CI/CD practices. Write a summary of how these practices can help the team work better and faster.
+2. **Implementation Strategies:**
+    - Suggest simple strategies for adding CI/CD practices to the team’s workflow. This could include training sessions or starting small pilot projects.
+3. **Identify Challenges:**
+    - Think about possible challenges to implementing CI/CD and how to overcome them. Discuss why it’s important to get everyone on board.
+
+
+
+1. **Discuss CI/CD Importance:**
+    - CI/CD practices are essential in today's application development process. Think about it. You have an engineer who is writing code for an important company. They're using their work laptop and pushing this code to a repository that multiple other engineers and teams are writing to. We don't know what OS, shell, hardware resources, or anything this engineer has. Their environment could look completely different from another engineer. This is why code is delivered in containers where it should work the same for every engineer. Versioning is important because you want to make sure your engineer doesn't break anything with their code. So coding, pushing this code to a repo using Git, testing the code and make sure it works in the proper environment can be very resource intensive. We haven't even really talked about the infrastructure part. Containers make the environment look the same but what about the computer the code runs on? The virtual machine's configurations should be automated using a playbook like Ansible. The actual cloud or on-prem environment should be automated using Infrastructure as Code (IaC) so we know how the application will behave in the real world. We want this entire process to be updated when new code pushes are pushed so that's why we have Jenkins or GitHub Actions to automatically detect these changes once a pull request is reviewed and approved. Tools like ArgoCD make sure we have one source of truth and the environment never drifts from that source. This is ALL a lot to track depending on the tools so the CI/CD process should be designed carefully to make sure the application is efficient, stable, and keeping the users happy. This results in the company doing well. 
+2. **Implementation Strategies:**
+    - I would first evaluate which areas are becoming the most time consumming and why. Is the manual process just long? Is it causing security issues? Are their syntax issues? Then I would see which tools solve these problems and see if they can be implemented. There are a few ways to automate processes and they vary in costs. I would pick someone that satisfies the team's requirements but also saves the company some money. 
+3. **Identify Challenges:**
+    - It's difficult to implement new processes in general because most employees are used to their workflow. The biggest thing would be to show people how simple the adoption process is and how it can save them time and energy in the future. If you play on the benefits of the process, people will be more open to using the new process. 
