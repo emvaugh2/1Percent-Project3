@@ -13,6 +13,8 @@ ________________________
 
 ## Problem 1: Data Source Variability
 
+Explanation: The team is using different data sources that have various formats. This can cause problems with data quality and make it hard to process the data correctly.
+
 1. **Research and Think:**
 - Having different data formats can cause issues by making data cleaning and pulling the data more difficult. You can have multiple ways to list a date: 07/22/1993, July 22nd, 1993, 07-22-1993, 07.22.93. All of these are different formats and if you have applications or systems that are accepting one specific format, it will break those systems. From my networking experience, you see this often with MAC address as they'll be listed in the xx:yy:zz, xx-yy-xx, xxyy.zz formats. Some Cisco systems are smart enough to pull the data but others aren't (like the WLCs). By standardizing the format, you can make the data cleaning and pulling process acceptable for multiple systems. Think of it like defining a protocol. 
 
@@ -25,6 +27,7 @@ ________________________
 
 ## Problem 2: Proactive Monitoring and Observability
 
+Explanation: The team currently waits for problems to happen before fixing them. This can lead to longer outages and inefficiencies.
 
 1. **Identify Important Metrics:**
     - The general metrics for most computer systems are the hardware resources such as CPU, RAM, and disk space. If we're talking about networking, important metrics are high bandwidth utilizations, neighbor down alerts, failed backup jobs, etc. For the cloud, one of the most important metrics are costs. All of these are problems you want to catch early because it will show that your virtual environment is about to collapse if the hardware resources are overused, the network may fail if a neighbor is down, and you can run your company out of business if cloud costs skyrocket out of budget. 
@@ -80,16 +83,6 @@ ________________________
 
 
 **Explanation:** The team has not fully adopted CI/CD practices, which can lead to delays in updates and changes.
-
-
-
-1. **Discuss CI/CD Importance:**
-    - Research the benefits of CI/CD practices. Write a summary of how these practices can help the team work better and faster.
-2. **Implementation Strategies:**
-    - Suggest simple strategies for adding CI/CD practices to the team’s workflow. This could include training sessions or starting small pilot projects.
-3. **Identify Challenges:**
-    - Think about possible challenges to implementing CI/CD and how to overcome them. Discuss why it’s important to get everyone on board.
-
 
 
 1. **Discuss CI/CD Importance:**
