@@ -56,7 +56,23 @@ ________________________
 
 ## Problem 4: Lack of Documentation and Guidance
 
-Welcome to our demonstration of Project 2: Deploying Microservices on Amazon EKS! This will be a compilation of all the skills we've recently developed so lets put in into action. So what is a microservice? A microservice is more of a design approach for breaking very large services into smaller, separated services that add back up to the larger service. Netflix is an "application" but it's really a large application (streaming TV media) that is comprised of a bunch of smaller services (DBs, cloud services, storage, etc). 
+**Explanation:** Not having enough documentation can make it hard for new members to onboard and slow down the work process.
+
+
+1. **Evaluate Documentation:**
+    - Look at the current state of documentation in a team. Write a brief analysis of how poor documentation affects team performance.
+2. **Improvement Plan:**
+    - Suggest simple strategies for creating and keeping documentation up to date. This could include assigning responsibilities or setting regular review times.
+3. **Encourage Knowledge Sharing:**
+    - Think of ways to encourage team members to share what they know. Propose ideas like lunch-and-learn sessions or regular meetings to share knowledge.
+  
+
+1. **Evaluate Documentation:**
+    - Documentation is one of those huge factors that people overlook all the time until things become very hectic. Also, what's the best way to document a process? People aren't really holding seminars on how to do this. Consider a senior engineer who has been with the company since the day it started. They know parts of the environment that you may never run across. When they disappear and an issue arises, it becomes extremely difficult to fix certain issues which can cost the company money, future business, or overall destroy the company. This is a very real reality so people should have processes documented to avoid catastrophes. 
+2. **Improvement Plan:**
+    - One of the best ways to create documentation is when you're starting a new process or task, take as many notes as you can with screenshots of the process while you're going through it. When you revist the issue, it's easy to forget about the small buttons and commands you put in while getting to the solution and you may not even run into that issue again so you'll forget about all of these small steps. Write all of it down as you go through it so the next person will have even more information and will be able to follow along. Visual information helps tremendously. If you can, always try to create diagrams for workflows whether that's a logical workflow, traffic workflow, or operational workflow. This can literally save the day when people run into issues with applications. Documentation should be stored in a place where people can easily search for it. At the very least, the engineer who wrote the documentation should be able to show the location of the document quickly. 
+3. **Encourage Knowledge Sharing:**
+    - Documentation should be updated regularly because GUIs for a many tools change slightly but constantly. A screenshot from a documentation 7 months ago may no longer be relevant in today's procedure since the screen looks different. There should be meetings once a month for team members to show other team members their documentation and make sure no one has any questions about it. You can encourage this behavior because it will remind all the engineers that if they want less work or less people to reach out to them for a specific issue, they should create the documentation for it so other engineers can handle it without assistance. Bonus points if the engineer is so great at documentation that they can hand this to an end user the and end user fix it themselves. 
 
 
 
