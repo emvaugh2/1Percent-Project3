@@ -35,7 +35,23 @@ ________________________
 
 ## Problem 3: Resource Constraints
 
-Welcome to our demonstration of Project 2: Deploying Microservices on Amazon EKS! This will be a compilation of all the skills we've recently developed so lets put in into action. So what is a microservice? A microservice is more of a design approach for breaking very large services into smaller, separated services that add back up to the larger service. Netflix is an "application" but it's really a large application (streaming TV media) that is comprised of a bunch of smaller services (DBs, cloud services, storage, etc). 
+**Explanation:** The team is small, so members often have to do many tasks. This can lead to stress and gaps in coverage.
+
+**Action Steps:**
+
+1. **Assess Team Roles:**
+    - Think about the current roles and responsibilities in a small team. Identify areas where team members might be overwhelmed and write a brief analysis.
+2. **Resource Management Ideas:**
+    - Suggest ways to better manage resources, like prioritizing tasks or sharing responsibilities. Consider how cross-training team members could help.
+3. **Automation Opportunities:**
+    - Think about simple tasks that could be automated to save time. Write a proposal for tools or processes that could make work easier.
+  
+1. **Assess Team Roles:**
+    - Most teams (at least when they're contractors) have a scope of work regarding the responsbilities and boundaries for what the employee should be handling. The manager and directors should know this like the back of their hand. As far as the cloud and networking sides are related, this typically comes down to handling alerts first, tickets from end users, large projects to fix and refresh the environment, and future designing activities which the architect usually handles. People can easily get overwhelmed by tickets and alerts if the environment isn't very stable which requires high availibility, redundancy, simple, efficient topology designs, and proper training to handle issues. 
+2. **Resource Management Ideas:**
+    - The junior level engineers should handle as many tickets as they can and work on smaller projects. The senior engineers should work on the main projects to uphold stakeholder deliverables. The architect should be making environment design choices as they're usually the most senior and understands every part of the network. There should be biweekly training for everyone on the team by the team or additional resources so that there are no silos of information on the team. 
+3. **Automation Opportunities:**
+    - Automation comes in many forms but here are few things that would make some environments easier. You can create an automatically messaging system that sends ticket cases to ISPs when a network neighbor goes down so the ISP can immediately fix the circuit on their end. You can create scripts for device configurations so engineers can copy and paste the configuration instead of writing the syntax from scratch. There should be clear documentation with all procedures and stored in a logical way where people can find the documentation. That way, the junior engineers can review these documents and solve problems before reaching out to the more senior engineers. This is very environment specific but those are a few things I could automate. 
 
 
 ## Problem 4: Lack of Documentation and Guidance
